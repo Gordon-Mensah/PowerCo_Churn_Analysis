@@ -15,7 +15,9 @@ This repository contains the work conducted for PowerCo, a major energy utility,
 ```
 PowerCo_Churn_Analysis/
 ├── assets/
-│   ├── correlation_heatmap.png       # Feature Importance.PNG     # Churn Risk Distribution.PNG  # Key Customer Segments.PNG    # Price Sensitivity Analysis.PNG
+│   ├── # correlation_heatmap.png       # Feature Importance.PNG
+│   ├── # Churn Risk Distribution.PNG  # Key Customer Segments.PNG
+│   ├── # Price Sensitivity Analysis.PNG
 ├── datasets/
 │   ├── client_data (1).csv            # Initial dataset provided by PowerCo
 │   ├── clean_data_after_eda.csv       # Cleaned dataset after exploratory analysis
