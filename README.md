@@ -14,26 +14,27 @@ This repository contains the work conducted for PowerCo, a major energy utility,
 ## Repository Structure
 ```
 PowerCo_Churn_Analysis/
+├── assets/
+│   ├── correlation_heatmap.png       # Feature Importance.PNG     # Churn Risk Distribution.PNG  # Key Customer Segments.PNG    # Price Sensitivity Analysis.PNG
 ├── datasets/
-│   ├── client_data.csv                # Initial dataset provided by PowerCo
+│   ├── client_data (1).csv            # Initial dataset provided by PowerCo
 │   ├── clean_data_after_eda.csv       # Cleaned dataset after exploratory analysis
 │   ├── data_for_predictions.csv       # Final dataset used for modeling
-├── notebooks/
-│   ├── feature_engineering_powerco.ipynb  # Notebook for feature engineering
-│   ├── PowerCo_Churn_Analysis.ipynb       # Notebook for analysis and modeling
 ├── documents/
-│   ├── Hypothesis_Formulation_and_Testing_BCG.docx  # Hypothesis formulation document
-│   ├── Executive_Summary.pdf                       # Final executive summary
-│   ├── Executive_Summary_Model_Answer.pdf          # Model answer for the executive summary
+│   ├── Hypothesis Formulation and Testing BCG.docx  # Hypothesis formulation document
+│   ├── Executive Summary.pdf                       # Final executive summary
+│   ├── Executive Summary Model Answer.pdf          # Model answer for the executive summary
+├── notebooks/
+│   ├── PowerCo_Churn_Analysis.ipynb   # Notebook for analysis and modeling
 ├── presentations/
-│   ├── Executive_Summary.pptx  # PowerPoint version of the executive summary
-├── README.md                  # Project overview and instructions
+│   ├── Executive Summary.pptx        # PowerPoint version of the executive summary
+├── README.md                         # Project overview and instructions
 ```
 
 ## How to Run the Project
 1. **Clone this repository**:
    ```bash
-   git clone https://github.com/yourusername/PowerCo_Churn_Analysis.git
+   git clone https://github.com/Gordon-Mensah/PowerCo_Churn_Analysis.git
    cd PowerCo_Churn_Analysis
    ```
 
@@ -45,11 +46,15 @@ PowerCo_Churn_Analysis/
 
 3. **Run the notebooks**:
    Open the Jupyter Notebooks in your environment to reproduce the analysis:
-   - `feature_engineering_powerco.ipynb`
-   - `PowerCo_Churn_Analysis.ipynb`
+   - `notebooks/PowerCo_Churn_Analysis.ipynb`
 
 4. **Explore the findings**:
    Review the datasets, documents, and presentations for insights and recommendations.
+
+## Sample Outputs
+### Correlation Heatmap
+This heatmap highlights the relationships between features and their correlation with churn.
+![Correlation Heatmap](assets/correlation_heatmap.png)
 
 ## Skills Demonstrated
 - **Data Analysis**: Conducted exploratory data analysis to understand customer trends.
@@ -71,8 +76,6 @@ PowerCo_Churn_Analysis/
 ---
 
 ### Author
-# John Jerry Gordon-Mensah
-
 This repository was developed as part of a job simulation for BCG X. Feel free to reach out for any questions or collaboration opportunities.
 
 ---
