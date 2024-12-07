@@ -51,7 +51,8 @@ PowerCo_Churn_Analysis/
 
 3. **Run the notebooks**:
    Open the Jupyter Notebooks in your environment to reproduce the analysis:
-   - `notebooks/PowerCo_Churn_Analysis.ipynb`
+   - `notebooks/PowerCo_Churn_Prediction.ipynb`
+   - `notebooks/PowerCo_Feature_Engineering.ipynb`
 
 4. **Explore the findings**:
    Review the datasets, documents, and presentations for insights and recommendations.
@@ -60,6 +61,22 @@ PowerCo_Churn_Analysis/
 ### Correlation Heatmap
 This heatmap highlights the relationships between features and their correlation with churn.
 ![Correlation Heatmap](assets/correlation_heatmap.png)
+
+### Feature Importance
+A visualization of the most important features driving churn predictions.
+![Feature Importance](assets/Feature%20Importance.PNG)
+
+### Churn Risk Distribution
+This distribution plot shows the predicted probability of churn for all customers.
+![Churn Risk Distribution](assets/Churn%20Risk%20Distribution.PNG)
+
+### Key Customer Segments
+Segmented data showing churn rates across different customer categories.
+![Key Customer Segments](assets/Key%20Customer%20Segments.PNG)
+
+### Price Sensitivity Analysis
+Analysis of how price changes influence churn rates.
+![Price Sensitivity Analysis](assets/Price%20Sensitivity%20Analysis.PNG)
 
 ## Skills Demonstrated
 - **Data Analysis**: Conducted exploratory data analysis to understand customer trends.
@@ -81,6 +98,7 @@ This heatmap highlights the relationships between features and their correlation
 ---
 
 ### Author
+# John Jerry Gordon-Mensah
 This repository was developed as part of a job simulation for BCG X. Feel free to reach out for any questions or collaboration opportunities.
 
 ---
