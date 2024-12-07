@@ -71,6 +71,7 @@ PowerCo_Churn_Analysis/
 ---
 
 ### Author
+#John Jerry Gordon-Mensah
 This repository was developed as part of a job simulation for BCG X. Feel free to reach out for any questions or collaboration opportunities.
 
 ---
