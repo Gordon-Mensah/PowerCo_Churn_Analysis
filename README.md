@@ -15,22 +15,25 @@ This repository contains the work conducted for PowerCo, a major energy utility,
 ```
 PowerCo_Churn_Analysis/
 ├── assets/
-│   ├── # correlation_heatmap.png       # Feature Importance.PNG
-│   ├── # Churn Risk Distribution.PNG  # Key Customer Segments.PNG
-│   ├── # Price Sensitivity Analysis.PNG
+│   ├──  correlation_heatmap.png
+│   ├──  Feature Importance.PNG
+│   ├──  Churn Risk Distribution.PNG
+│   ├── Key Customer Segments.PNG
+│   ├──  Price Sensitivity Analysis.PNG
 ├── datasets/
-│   ├── client_data (1).csv            # Initial dataset provided by PowerCo
+│   ├── client_data .csv            # Initial dataset provided by PowerCo
 │   ├── clean_data_after_eda.csv       # Cleaned dataset after exploratory analysis
 │   ├── data_for_predictions.csv       # Final dataset used for modeling
 ├── documents/
 │   ├── Hypothesis Formulation and Testing BCG.docx  # Hypothesis formulation document
-│   ├── Executive Summary.pdf                       # Final executive summary
-│   ├── Executive Summary Model Answer.pdf          # Model answer for the executive summary
+│   ├── Data Description  # Data Variables Description
 ├── notebooks/
-│   ├── PowerCo_Churn_Analysis.ipynb   # Notebook for analysis and modeling
+│   ├── PowerCo_Churn_Prediction.ipynb     # Notebook for analysis and modeling
+│   ├── PowerCo_Feature_Engineering.ipynb  # Notebook for featured engineering
 ├── presentations/
 │   ├── Executive Summary.pptx        # PowerPoint version of the executive summary
 ├── README.md                         # Project overview and instructions
+├── requirements.txt
 ```
 
 ## How to Run the Project
